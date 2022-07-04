@@ -1,12 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Print all the alphabets
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 int main(void)
-{	char chs = abcdefghijklmnopqrstuvwxyz ;
-	putchar(chs);
- 	putchar(\n)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+
+	putchar('\n');
 	return (0);
 }
