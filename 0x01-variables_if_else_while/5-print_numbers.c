@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Print all the alphabets
- *
- * Return: Always (Success)
+ * main - prints all single digit numbers of base 10
+ * 
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int chs;
+	int n;
 
-	for (chs = 1; chs <= 10; chs++)
-		printf("chs\n", chs);
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
 
 	return (0);
 }
