@@ -5,7 +5,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	putchar("abcdefghijklmnopqrstuvwxyz\n");
+{	char chs = "abcdefghijklmnopqrstuvwxyz" ;
+	putchar(ch);
+ 	putchar(\n)
 	return (0);
 }
