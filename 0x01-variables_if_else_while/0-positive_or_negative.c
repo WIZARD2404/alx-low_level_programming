@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
-/**
- * The min code goes in the main function
- */
+
 /* betty style doc for function main goes there */
+/**
+ * The main code goes in the main function
+ */
 int main(void)
 {
 	int n;
