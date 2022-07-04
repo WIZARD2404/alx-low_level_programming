@@ -10,8 +10,7 @@ int main(void)
 	int chs;
 
 	for (chs = 1; chs <= 10; chs++)
-		printf(chs);
+		printf("chs\n", chs);
 
-	printf('\n');
 	return (0);
 }
