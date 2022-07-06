@@ -11,7 +11,7 @@ int main(void)
 	x = 1, y = 2;
 	printf("%d", x);
 	printf("%d", y);
-	for(int i = 0, i < 50, i++)
+	for(int i = 0; i < 50; i++)
 	{
 		n = x + y;
 		printf("%d", n);
@@ -19,5 +19,5 @@ int main(void)
 		y = n
 		n = x + y
 	}
-	return (0)
+	return (0);
 }
