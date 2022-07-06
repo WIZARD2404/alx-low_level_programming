@@ -8,10 +8,10 @@
 int main(void)
 {
 	int x, y, n;
-	x = 1, y = 2;
+	i = 0;x = 1, y = 2;
 	printf("%d, ", x);
 	printf("%d, ", y);
-	for(int i = 0; i < 50; i++)
+	for(i < 50; i++)
 	{
 		n = x + y;
 		printf("%d", n);
