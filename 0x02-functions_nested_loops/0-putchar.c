@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
- * main - This code prints the string "_putchar"
- *
- * Returns (0) - Always Success
- * © Charles Obinna
+ * main - prints _putchar
+ * escription: prints _putchar
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-	putchar("_putchar");
+	char text[9] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
