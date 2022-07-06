@@ -11,15 +11,13 @@ int main(void)
 	int i = 0;
 	x = 1, y = 2;
 	
-	printf("%ld, ", x);
-	printf("%ld, ", y);
-	for ( ; i < 48; ++i)
+	printf("%d, ", x);
+	printf("%d", y);
+	for ( ; i < 50; ++i)
 	{
 		n = x + y;
-		if((i = 49))
-			printf("%ld", n);
-		else
-			printf("%ld, ", n);
+		printf(", ");
+		printf("%d, ", n);
 		x = y;
 		y = n;
 		n = x + y;
