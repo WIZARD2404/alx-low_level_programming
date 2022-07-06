@@ -18,6 +18,8 @@ int main(void)
 		n = x + y;
 		printf(", ");
 		printf("%ld", n);
+		if ((1 == 47))
+			printf("/n");
 		x = y;
 		y = n;
 		n = x + y;
