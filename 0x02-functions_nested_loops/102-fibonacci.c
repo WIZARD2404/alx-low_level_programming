@@ -14,7 +14,7 @@ int main(void)
 	for( ; i < 50; ++i)
 	{
 		n = x + y;
-		printf("%d", n);
+		printf("%d, ", n);
 		x = y;
 		y = n;
 		n = x + y;
