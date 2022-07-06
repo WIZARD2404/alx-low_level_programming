@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	int x, y, n, i;
-	i = 0, x = 1, y = 2;
+	long int x, y, n;
+	int i = 0;
+	x = 1, y = 2;
 	
 	printf("%d, ", x);
 	printf("%d, ", y);
