@@ -18,10 +18,11 @@ int main(void)
 		n = x + y;
 		if((i = 49))
 			printf("%ld", n);
-		printf("%ld, ", n);
-		x = y;
-		y = n;
-		n = x + y;
+		else
+			printf("%ld, ", n);
+			x = y;
+			y = n;
+			n = x + y;
 	}
 	return (0);
 }
