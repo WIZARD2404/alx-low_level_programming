@@ -9,8 +9,9 @@ int main(void)
 {
 	long int x, y, n;
 	int i = 0;
+
 	x = 1, y = 2;
-	
+
 	printf("%ld, ", x);
 	printf("%ld", y);
 	for ( ; i < 48; ++i)
@@ -18,12 +19,12 @@ int main(void)
 		n = x + y;
 		printf(", ");
 		printf("%ld", n);
-		
+
 		x = y;
 		y = n;
 		n = x + y;
 		if ((i == 47))
-			printf("/n");
+			printf("\n");
 	}
 	return (0);
 }
