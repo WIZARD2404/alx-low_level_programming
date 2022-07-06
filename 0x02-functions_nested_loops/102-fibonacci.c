@@ -20,9 +20,9 @@ int main(void)
 			printf("%ld", n);
 		else
 			printf("%ld, ", n);
-			x = y;
-			y = n;
-			n = x + y;
+		x = y;
+		y = n;
+		n = x + y;
 	}
 	return (0);
 }
