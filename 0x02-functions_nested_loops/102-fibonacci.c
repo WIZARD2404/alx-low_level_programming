@@ -17,7 +17,7 @@ int main(void)
 	{
 		n = x + y;
 		printf(", ");
-		printf("%ld, ", n);
+		printf("%ld", n);
 		x = y;
 		y = n;
 		n = x + y;
