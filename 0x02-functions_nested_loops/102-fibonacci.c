@@ -16,6 +16,8 @@ int main(void)
 	for ( ; i < 48; ++i)
 	{
 		n = x + y;
+		if(i = 49)
+			printf("%ld", n);
 		printf("%ld, ", n);
 		x = y;
 		y = n;
