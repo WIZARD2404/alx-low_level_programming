@@ -1,0 +1,105 @@
+#include <stdio.h>
+
+#include <time.h>
+
+//Amount ofseconds in a day
+
+#define secday 86400
+
+/**
+
+ * main - A Simple code that accepts an input and prints.
+
+ * out the day you were born, your age, 
+
+ * days you've spent on earth and
+
+ * your zodiac sign.
+
+ * Please Enter Date in this format- DD MM YYYY
+
+ *
+
+ * Returns (0) - Success
+
+ */
+
+int main()
+
+{
+
+        time_t now = time(NULL);
+
+        int pow = 1, day, month, year, nowr = now / secday;
+
+        scanf("%2d %2d %4d", &day, &month, &year);
+
+        
+
+        while (day && month && year && pow)
+
+        {
+
+        switch(month){
+
+                case 1:;
+
+        }
+
+        // This function prints the day of the week you wereborn
+
+                int dayofweek(void)
+
+                {
+
+            
+
+                             if (!(year % 4))
+
+                                             printf ("Hbehe\n");
+
+                             if (year < 1900)
+
+                                            printf("I greet thee great Melchizedek\n");
+
+                            
+
+                            
+
+                             printf("%2d %2d %4d\n", day, month, year);
+
+                             printf("%ld\n", now);
+
+                             return 0;
+
+                }
+
+                pow = 0;
+
+                dayofweek();
+
+        }
+
+        
+
+        printf("%d\n",nowr/366);
+
+        printf("I just started learning C recently  so if you like this code,"\
+
+             "encourage me by  hitting the upvote button and drop a comment below"\
+
+             " on features you'll like me to add");
+
+         return 0;
+
+             
+
+}
+
+/**
+
+ * Get the PC version on Github(https://github.com/WIZARD2404)
+
+ * This code is Opensource and can be rebuilt an
+
+ */ 
