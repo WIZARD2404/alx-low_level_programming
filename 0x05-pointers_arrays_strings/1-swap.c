@@ -7,6 +7,7 @@
  * @b: a pointer
  * Return: void
  */
+
 void swap_int(int *a, int *b)
 {
 	int t;
