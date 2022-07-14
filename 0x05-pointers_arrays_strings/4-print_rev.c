@@ -15,7 +15,7 @@ void print_rev(char *s)
 	ful = i - 1;
 	for(; ful >=0; i--)
 		s[i] = ful[i];
-		printf("%c", &s);
+		printf("%c", s);
 		if(ful == 0)
 			printf("\n");
 		else;
